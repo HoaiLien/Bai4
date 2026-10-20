@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let tong = 0;
+        let sochan = 0;
+        let sole = 0;
+        for (let i = 0; i < 6; i++) {
+            tong += i;
+            if (i % 2 === 0) {
+                sochan += i;
+                document.write(i + '<br>');
+            } else {
+                sole += i;
+                document.write(i + '<br>');
+            }
+        }
+        document.write("Tổng các số chẵn: " + sochan + '<br>');
+        document.write("Tổng các số lẻ: " + sole + '<br>');
+        document.write("Tổng cuối cùng: " + tong + '<br>');
+    </script>
+</body>
+
+</html>

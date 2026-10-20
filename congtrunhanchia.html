@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercise Simple Match</title>
+    <link rel="stylesheet" href="">
+    <script src="congtrunhanchia.js">
+    </script>
+</head>
+
+<body>
+    Số A (*) <br>
+    <input type="text" name="" id="numbera"> <br> Số B (*) <br>
+    <input type="text" name="" id="numberb"> <br>
+    <br> Cộng :
+    <input type="button" name="" value="+" onclick="result(cong(getValueA(),getValueB()));">
+    <br> Trừ :
+    <input type="button" name="" value="-" onclick="result(tru(getValueA(),getValueB()));">
+    <br> Nhân :
+    <input type="button" name="" value="*" onclick="result(nhan(getValueA(),getValueB()));">
+    <br> Chia:
+    <input type="button" name="" value="/" onclick="result(chia(getValueA(),getValueB()));">
+    <br>
+    <br> Kết quả A & B:<br>
+    <input type="text" name="" id="result" disabled="true">
+</body>
+
+</html>

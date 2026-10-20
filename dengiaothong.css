@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    font-family: Arial;
+}
+
+button {
+    font-size: 20px;
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.traffic-light {
+    width: 220px;
+    background: #222;
+    border: 8px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 60px auto;
+}
+
+.light {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 10px auto;
+    background: #111;
+    border: 5px solid #333;
+}
+
+.red.active {
+    background: red;
+}
+
+.yellow.active {
+    background: yellow;
+}
+
+.green.active {
+    background: green;
+}

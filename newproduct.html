@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Input to Table</title>
+    <link rel="stylesheet" href="newproduct.css">
+
+</head>
+
+<body>
+    <h1>New Product</h1>
+    <hr />
+    <form name="frm">
+        <p>
+            <label>
+                Product Name
+                <input type="text" name="pname" id="pname" />
+            </label>
+            <label>
+                Quantity
+                <input type="text" name="qty" id="qty" />
+            </label>
+        </p>
+        <p>
+            <label>
+                Unit Price
+                <input type="text" name="up" id="up" />
+            </label>
+            <label>
+                Discount
+                <input type="text" name="dc" id="dc" />
+            </label>
+        </p>
+        <p>
+            <button type="button" onclick="sell()">Sell</button>
+            <button type="reset">Cancel</button>
+        </p>
+    </form>
+    <table id="tbl">
+        <tr>
+            <th>ID</th>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Discount</th>
+            <th>Subtotal</th>
+        </tr>
+    </table>
+
+    <script src="newproduct.js"></script>
+</body>
+
+</html>
